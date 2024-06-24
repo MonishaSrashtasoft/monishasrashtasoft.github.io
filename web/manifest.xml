@@ -19,7 +19,7 @@
     <Host Name="Mailbox"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="http://localhost:5000/taskpane.html"/>
+    <SourceLocation DefaultValue="https://github.com/MonishaSrashtasoft/outlook/blob/dev/web/src/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteMailbox</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -59,7 +59,7 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Taskpane.Url" DefaultValue="http://localhost:5000/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://github.com/MonishaSrashtasoft/outlook/blob/dev/web/src/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Group.Label" DefaultValue="Outlook Add-in"/>
