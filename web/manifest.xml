@@ -9,8 +9,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Outlook Email Viewer"/>
   <Description DefaultValue="View your Outlook emails."/>
-  <IconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world/assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://out-look.web.app/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://out-look.web.app/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://example.com/support"/>
   <AppDomains>
     <AppDomain>https://example.com</AppDomain>
@@ -54,12 +54,12 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/word-hello-world/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://cdn.jsdelivr.net/gh/monishasrashtasoft/monishasrashtasoft.github.io/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://out-look.web.app/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://out-look.web.app/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://github.com/MonishaSrashtasoft/outlook/blob/dev/web/src/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://out-look.web.app/src/taskpane/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Group.Label" DefaultValue="Outlook Add-in"/>
