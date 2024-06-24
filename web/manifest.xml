@@ -13,7 +13,7 @@
   <HighResolutionIconUrl DefaultValue="https://monishasrashtasoft.github.io/web/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://learn.microsoft.com/office/dev/add-ins/overview/office-add-in-code-samples"/>
   <AppDomains>
-    <AppDomain>https://monishasrashtasoft.github.io/web</AppDomain>
+    <AppDomain>https://monishasrashtasoft.github.io</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Document"/>
