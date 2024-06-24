@@ -9,8 +9,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue=" Email Viewer"/>
   <Description DefaultValue="View your Outlook emails."/>
-  <IconUrl DefaultValue="https://cdn.jsdelivr.net/gh/MonishaSrashtasoft/monishasrashtasoft.github.io/web/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://cdn.jsdelivr.net/gh/MonishaSrashtasoft/monishasrashtasoft.github.io/web/assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://monishasrashtasoft.github.io/web/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://monishasrashtasoft.github.io/web/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://example.com/support"/>
   <AppDomains>
     <AppDomain>https://cdn.jsdelivr.net/gh/MonishaSrashtasoft/monishasrashtasoft.github.io</AppDomain>
@@ -19,7 +19,7 @@
     <Host Name="Mailbox"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://cdn.jsdelivr.net/gh/MonishaSrashtasoft/monishasrashtasoft.github.io/web/src/taskpane.html"/>
+    <SourceLocation DefaultValue="https://monishasrashtasoft.github.io/web/src/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteMailbox</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -54,12 +54,12 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://cdn.jsdelivr.net/gh/MonishaSrashtasoft/monishasrashtasoft.github.io/web/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://cdn.jsdelivr.net/gh/MonishaSrashtasoft/monishasrashtasoft.github.io/web/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://cdn.jsdelivr.net/gh/MonishaSrashtasoft/monishasrashtasoft.github.io/web/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://monishasrashtasoft.github.io/web/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://monishasrashtasoft.github.io/web/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://monishasrashtasoft.github.io/web/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://cdn.jsdelivr.net/gh/MonishaSrashtasoft/monishasrashtasoft.github.io/web/src/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://monishasrashtasoft.github.io/web/src/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Group.Label" DefaultValue="Outlook Add-in"/>
