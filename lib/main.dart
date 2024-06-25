@@ -1,17 +1,17 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-      options: const FirebaseOptions(
-          apiKey: "AIzaSyAdQTJDBVXuLY8ST74zGtNmN0YO35tkyKo",
-          authDomain: "outlook-725ce.firebaseapp.com",
-          projectId: "outlook-725ce",
-          storageBucket: "outlook-725ce.appspot.com",
-          messagingSenderId: "68457259702",
-          appId: "1:68457259702:web:6fa5267fd39be96af1fc17",
-          measurementId: "G-RLHSGJCQNP"));
+  // await Firebase.initializeApp(
+  //     // options: const FirebaseOptions(
+  //     //     apiKey: "AIzaSyAdQTJDBVXuLY8ST74zGtNmN0YO35tkyKo",
+  //     //     authDomain: "outlook-725ce.firebaseapp.com",
+  //     //     projectId: "outlook-725ce",
+  //     //     storageBucket: "outlook-725ce.appspot.com",
+  //     //     messagingSenderId: "68457259702",
+  //     //     appId: "1:68457259702:web:6fa5267fd39be96af1fc17",
+  //     //     measurementId: "G-RLHSGJCQNP")
+  //     );
   runApp(const MyApp());
 }
 
@@ -24,21 +24,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
@@ -81,25 +66,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
     return Scaffold(
       appBar: AppBar(
-        // TRY THIS: Try changing the color here to a specific color (to
-        // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
-        // change color while the other colors stay the same.
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
       body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
         child: Column(
           // Column is also a layout widget. It takes a list of children and
           // arranges them vertically. By default, it sizes itself to fit its
@@ -118,6 +90,9 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             const Text(
               'You have pushed the button this many times:',
+            ),
+            const Text(
+              'You have pushed the button this one time times:',
             ),
             Text(
               '$_counter',
